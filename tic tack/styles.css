@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.heading{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: skyblue;
+}
+.heading span{
+    color: rgb(183, 183, 27);
+
+}
+.heading p{
+    color: darkgoldenrod;
+    text-transform: uppercase;
+}
+.choose{
+    position: absolute;
+    top: 12%;
+    width: max(100%,400px);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+
+}
+.choose h2{
+    font-size:62px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.choose p{
+    padding:25px;
+    text-align: center;
+    font-size: 28px;
+    background: transparent;
+    border: 6px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+
+
+
+}
+.play-section{
+    position: absolute;
+    width: max(50%,600px);
+    height: max(50%,400px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+}
+.play-section table{
+    width: max(80%,400px);
+    height:max(100%,400px);
+    border: 8px black solid;
+    box-sizing: border-box; 
+   
+}
+table td{
+    width:120px;
+    height:100px;
+    border: skyblue 8px solid;
+    text-align: center;
+    font-size: 32px;
+    cursor: pointer;
+
+}
+.message{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 18%;
+   
+}
+.message p{
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+   
+
+}
