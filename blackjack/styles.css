@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.header h1{
+    color: goldenrod;
+    font-size: 25px;
+    font-weight: 600;
+}
+.header p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.main button{
+    padding: 20px;
+    color: white;
+    background-color: orangered;
+    border-radius: 12px;
+    border: none;
+    margin: 2px;
+}
+.playsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
