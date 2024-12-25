@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slides .Currentslide {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.Currentslide.displayslide{
+    display: block;
+    animation: fade 2s linear forwards;
+}
+.slider .buttons{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+button{
+    background-color: hsla(0, 0%, 0%, 0.443);
+    color: white;
+    font-size: 28px;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+}
+@keyframes fade{
+    from{opacity: 0.4}
+    to{
+        opacity: 1;
+    }
+}
