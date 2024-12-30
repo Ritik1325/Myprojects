@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+
+}
+body{
+    background-color: #353432;
+}
+.heading{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 52px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+.timeline{
+    display: flex;
+    position: absolute;
+    inset: 0 auto 0 0;
+    background-color:  #886388;
+    width: max(20%,440px);
+    flex-direction: column;
+    animation: slideIn 2s forwards linear;
+   
+}
+@keyframes slideIn {
+    from{
+       transform: translateX(-300px);
+    }
+    to{
+       transform: translateX(0);
+
+    }
+    
+}
+
+
+.timeline .gifts{
+    margin-top: 220px;
+    width:max(100%,440px);
+    text-align: center;
+}
+.timeline .gifts img{
+    width: 100%;
+   animation: flash 3s forwards linear;
+}
+@keyframes flash {
+    from{
+
+    }
+    
+}
+
+
+.time{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 12px;
+    width: max(20%,440px);
+    font-size: 68px;
+    font-weight: 600;
+   
+
+}
+.listarea{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: max(55%,600px);
+    height: max(50%,200px);
+    border: 8px solid skyblue;
+    border-radius: 12px;
+   
+}
+.listarea input{
+    width: max(85%,400px);
+    height: max(100px,12%);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-left: 12px;
+    border: 4px solid black;
+    border-radius: 8px;
+    outline: none;
+    color: skyblue;
+    text-transform: capitalize;
+   
+}
+li{
+    margin-top: 12px;
+    
+}
+
+.listarea .itemsarea{
+    display: flex;
+    margin-left: 22px;
+    font-size: 28px;
+    font-weight: 600;
+    color: skyblue;
+    padding-left: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 15%;
+    box-sizing: border-box;
+    width: max(100%,550px);
+    height: max(75%,250px);
+}
+.listarea .button{
+    display: flex;
+    position: inherit;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-around;
+    width: 100%;
+
+}
+.listarea .button button{
+    width: max(120px,180px);
+    height: max(60px,42px);
+    font-size: 22px;
+    font-weight: 600;
+    color: skyblue;
+    border-radius: 12px;
+    border: 4px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+ 
