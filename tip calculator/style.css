@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(234, 225, 225);
+
+}
+p{
+    margin-left: 22px;
+    font-size: 2.5rem;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+.container{
+    width: max(50%,600px);
+    height: max(30%,300px);
+    margin: 0 auto;
+    box-shadow: 8px 8px 8px 8px white;
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 16px;
+    
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 16px; 
+}
+label{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 16px;
+}
+input{
+    padding: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    border-radius: 16px;
+    background: transparent;
+    
+
+}
+button{
+    padding: 20px;
+    font-size: 32px;
+    font-weight: 400;
+    border-radius: 16px;
+    margin-top: 38px;
+    background-color: rgb(48, 165, 48);
+    color: white;
+    cursor: pointer;
+
+}
