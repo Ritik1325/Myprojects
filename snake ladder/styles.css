@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("https://i.pinimg.com/736x/58/bd/4f/58bd4fc9ebfccc1f2de419529bbf1a12.jpg");
+    background-size:contain;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 550px;
+    gap: 12px;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 4px antiquewhite solid;
+    box-shadow: 5px 5px 12px antiquewhite;
+}
+.header p{
+    font-size: 50px;
+    color: orangered;
+    font-weight: 600;
+}
+.header button{
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 12px;
+}
