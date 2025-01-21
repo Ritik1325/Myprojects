@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+}
+.container{
+    width: max(100px,30%);
+    margin: 200px auto;
+    display: flex;
+    border-radius: 25px;
+    gap: 12px;
+    text-align: center;
+    background-color: honeydew;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+input{
+    outline: none;
+    border:none;
+    width: 80%;
+    font-size:20px;
+    padding: 6px;
+    background: transparent;
+  
+
+}
+i{
+    font-size: 26px;
+    padding: 10px;
+   
+   
+   
+    
+}
+.bx-search{
+    cursor: pointer;
+    color:peru;
+}
+
+.active{
+    animation: widthmodule 1.5s linear forwards;
+   
+}
+
+@keyframes widthmodule{
+    
+    to{
+        width: 50px;
+        overflow: hidden;
+    }
+}
+
+.original{
+    animation: widthmodule1 1.2s linear forwards;
+   
+}
+
+@keyframes widthmodule1{
+    from{
+        width: 50px;
+    }
+    to{
+        width: 30%;
+       
+    }
+}
