@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: salmon;
+}
+.container{
+    margin: 200px auto;
+    width: max(30%,280px);
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 16px;
+    box-shadow: 12px 8px 10px rgba(0, 0, 0, 0.4);
+    
+}
+p{
+    text-transform: capitalize;
+    line-height: 1.5;
+    padding: 10px 8px;
+   
+}
+button{
+    padding: 12px 10px;
+    border-radius: 16px;
+    margin: 8px;
+    background: transparent;
+    cursor: pointer;
+}
